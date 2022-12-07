@@ -1,0 +1,33 @@
+﻿
+int P= Convert.ToInt32(Console.ReadLine());
+if (P <= 100 && P >= 0 && P >= 91)
+{
+    Console.WriteLine("A");
+}
+
+else if (P <= 90 && P >= 81)
+{
+    Console.WriteLine("B");
+}
+else if (P <= 80 && P >= 71)
+{
+    Console.WriteLine("C");
+}
+else if (P <= 70 && P >= 61)
+{
+    Console.WriteLine("D");
+}
+else if (P <= 60 && P >= 51)
+{
+    Console.WriteLine("E");
+}
+else if (P<51&&P>=0)
+        {
+    Console.WriteLine("Kəsildiniz");
+}
+else
+{
+    Console.WriteLine("Daxil etdiyiniz reqem duzgun deyil ");
+}
+    
+   
