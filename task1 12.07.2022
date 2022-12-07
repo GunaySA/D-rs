@@ -1,0 +1,9 @@
+﻿int N= Convert.ToInt32(Console.ReadLine());
+if(N%3==0&&N%7==0)
+{
+    Console.WriteLine("her ikisine qaliqsiz bolunur");
+}
+else
+{
+    Console.WriteLine("her ikisine qaliqsiz bolunmur");
+}
